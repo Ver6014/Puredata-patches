@@ -1,0 +1,17 @@
+#N canvas 501 31 591 502 12;
+#X obj 208 303 noteout;
+#X obj 180 215 makenote;
+#X msg 302 170 100, f 4;
+#X msg 279 206 1000;
+#X obj 126 83 metro 200;
+#X obj 124 33 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X floatatom 120 216 5 0 0 0 - - - 0;
+#X obj 128 174 random 10;
+#X connect 1 0 0 0;
+#X connect 1 1 0 1;
+#X connect 2 0 1 1;
+#X connect 3 0 1 2;
+#X connect 4 0 7 0;
+#X connect 5 0 4 0;
+#X connect 6 0 1 0;
+#X connect 7 0 6 0;
